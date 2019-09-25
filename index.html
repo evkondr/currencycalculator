@@ -3,8 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>Валютный калькулятор</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="scripts/main.js">
 </head>
 <body>
-    
+     <div class="container">
+        <form name="currancy_calc" action="">
+            <div class="row">
+                <div class="col">
+                    <div class="date">
+                        <p></p>
+                    </div>
+                    <div class="url">
+                        <p>Данные по валютам предоставлены ресурсом <span id="site"></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                     <div class="field">
+                        <label for="valute1">
+                            Валюта 1
+                        </label>
+                       <select name="select" id="valute1">
+                            
+                        </select>
+                        <input type="text" name="amount" id="amount" placeholder="Введите сумму">
+                    </div>
+                 </div>
+                <div class="col">
+                    <span>=></span>
+                </div>
+                <div class="col">
+                   <div class="col">
+                        <div class="field">
+                            <label for="valute2">
+                                Валюта 2
+                            </label>
+                            <select name="select" id="valute2">
+
+                            </select>
+                        </div>
+                        <input type="text" id="result">
+                    </div>                 
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button id="calculate">Рассчитать</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
