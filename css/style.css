@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html,
+body{
+    height: 100%;    
+}
+body{
+    font: 20px Arial
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#currancy-calc{
+    padding: 20px;
+    border: 1px solid gray;
+    box-shadow: 1px 0 10px rgba(0,0,0,.5);
+}
+.url{
+    font-size: 12px;
+}
+.space-around{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.field *{
+    margin-bottom: 10px;
+}
+.field input, .field select{
+    padding: 5px 10px;
+}
+#calculate{
+    padding: 5px 10px;
+    background: #fff;
+    border: 1px solid gray;
+    cursor: pointer;
+    
+}
