@@ -8,7 +8,9 @@ body{
     height: 100%;    
 }
 body{
-    font: 20px Arial
+    font: 20px Arial;
+    background: url(../img/moskva.jpg);
+    background-size: cover;
 }
 .container{
     max-width: 1170px;
@@ -20,11 +22,16 @@ body{
 }
 #currancy-calc{
     padding: 20px;
-    border: 1px solid gray;
+    border-radius: 5px;
     box-shadow: 1px 0 10px rgba(0,0,0,.5);
+    background-color: rgba(255,255,255, 0.8);
 }
 .url{
-    font-size: 12px;
+    font-size: 15px;
+}
+.date{
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 .main-block{
     position: relative;
@@ -72,4 +79,9 @@ body{
     border: 1px solid gray;
     cursor: pointer;
     
+}
+#err{
+    color: red;
+    font-size: 15px;
+    padding: 10px 0;
 }
